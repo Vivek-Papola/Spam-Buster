@@ -1,17 +1,6 @@
 # Spam-Buster : SMS Spam Detection App
 
-This repository implements an end-to-end SMS spam detection pipeline, from data cleaning and exploratory analysis, through NLP-based preprocessing and model training, to deployment as a Streamlit web app.
-
-## Steps for Spam Detection
-
-1. **Data Cleaning**  
-2. **Performing EDA**  
-3. **Text Preprocessing**  
-4. **Model Building**  
-5. **Evaluation**  
-6. **Improvement & Tuning**  
-7. **Web App Development**  
-8. **Deployment**
+This repository implements an end-to-end SMS spam detection pipeline, starting from data ingestion and cleaning, through exploratory data analysis (EDA) and NLP-based text preprocessing, to model training, evaluation, and deployment as a Streamlit web app. It uses the UCI SMS Spam Collection dataset, demonstrates multiple classifiers (e.g., Naive Bayes, SVM, Random Forest), and persists the best model with pickle for real-time inference
 
 ## Features
 
@@ -26,13 +15,13 @@ This repository implements an end-to-end SMS spam detection pipeline, from data 
 
 ## Tech Stack
 
-- **Python 3.8+**  
-- **Pandas** for data manipulation  
-- **NLTK** for NLP preprocessing  
-- **scikit-learn** for vectorization & modeling  
-- **Matplotlib & Seaborn** for visualization  
-- **Streamlit** for web app  
-- **pickle** for model serialization  
+- **Python 3.8+:** core language 
+- **Pandas:** for data manipulation  
+- **NLTK:** for NLP preprocessing  
+- **scikit-learn:** for vectorization & modeling  
+- **Matplotlib & Seaborn:** for visualization  
+- **Streamlit:** for web app  
+- **pickle:** for model serialization  
 
 ## Installation
 
@@ -40,3 +29,4 @@ Clone the repo
 ```bash
 git clone https://github.com/your-username/sms-spam-detector.git
 cd sms-spam-detector
+```
